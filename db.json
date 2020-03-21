@@ -1,0 +1,21 @@
+{
+  "places": [
+    {
+      "id": 1,
+      "name": "Il Forno",
+      "phoneNumber": "(210) 616-2198",
+      "streetAddress": "122 Nogalitos St",
+      "city": "San Antonio",
+      "state": "TX",
+      "zipCode": "78204",
+      "county": "Bexar",
+      "website": "http://www.ilfornosa.com",
+      "toGo": true,
+      "delivery": true,
+      "type": "food",
+      "facebook": "IlFornoSA",
+      "twitter": null,
+      "menuLink": "http://www.ilfornosa.com/menu"
+    }
+  ]
+}

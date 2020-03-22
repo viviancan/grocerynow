@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    background-color: #c3d1d8;
 }
 
 /*!*css for search button in nav*!*/
@@ -40,4 +41,8 @@ html, body {
 
 h1 {
     letter-spacing: 8px;
+}
+
+.card {
+    font-family: 'Roboto', cursive;
 }

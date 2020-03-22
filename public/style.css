@@ -2,9 +2,42 @@ html, body {
     height: 100%;
 }
 
-.container {
+/*!*css for search button in nav*!*/
+/*button.btn.btn-outline-success.my-2.my-sm-0 {*/
+/*    color: #459eae;*/
+/*}*/
+
+.container-fluid{
     position: relative;
-    top: 50%;
-    transform: translateY(-100%);
     text-align: center;
+}
+
+.jumbotron {
+    background-image: url("img/tomato2.jpg");
+    background-size: cover;
+    height: 100vh;
+    font-family: 'Questrial', sans-serif;
+    color: #459eae;
+    text-shadow: 0 0 9px #fff; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 9px #fff;
+    -webkit-text-shadow: 0 0 9px #fff;
+    animation: fade-in 2s 1;
+}
+@keyframes fade-in {
+    0%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+
+}
+
+.header-text {
+    margin-left: .5%;
+}
+
+
+h1 {
+    letter-spacing: 8px;
 }

@@ -1,6 +1,6 @@
-# SATX TO GO
+# GroceryNow
 
-This project was created in response to the COVID-19 Pandemic. This mobile responsive site will allow for users to search and filter available local places of business. The project structure is based on [https://github.com/gocodeup/movies-application](https://github.com/gocodeup/movies-application)
+This project was created in response to the COVID-19 Pandemic. This mobile responsive site will allow for users to search and filter available groceries from local places of business. The project structure is based on [https://github.com/gocodeup/movies-application](https://github.com/gocodeup/movies-application)
 
 ## Setup
 
@@ -11,6 +11,9 @@ This project was created in response to the COVID-19 Pandemic. This mobile respo
 1. Run `npm run dev` and visit
    [http://localhost:1313/](http://localhost:1313/) in your browser. Open up
    the console and inspect the output.
+
+## Phase 1
+* Bootstrap Table
 
 
 ## Specification
@@ -23,13 +26,7 @@ Search
 * Name
 * Address
 * Zip Code radius (within x amount of miles)
-
-Filter By
-* Type of food
-* Type of service 
-* Price
-* Curbside/To go
-* Delivery
+* Type of Grocery
 
 db.json - Info about each restaurant
 * Name
@@ -38,9 +35,6 @@ db.json - Info about each restaurant
 * Link to social media
 * website
  
-
 Profile Page for each restaurant (?)
-
-
 
 Google Form for people to submit places
